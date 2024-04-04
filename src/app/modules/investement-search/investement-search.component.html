@@ -1,0 +1,70 @@
+<div class="background-image">
+  <div class="heading-section pt-4">
+    <h1 class="mt-8">Investing Search Engine</h1>
+    <span>The Modern Stock Screener that helps you pick better stocks</span>
+  </div>
+  <div class="search-content">
+    <div class="container">
+      <div class="row d-flex justify-content-center mt-5">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="mt-3 inputs">
+              <span class="search-icon">
+                <i class="fas fa-search"></i>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search for stocks"
+                (input)="search($event)"
+              />
+            </div>
+            <div class="mt-3 suggestions-section">
+              <div
+                class="d-flex justify-content-between align-items-center search-ttem"
+                (click)="chooseSerachTerm()"
+              >
+                <div class="d-flex flex-row align-items-center">
+                  <div class="d-flex flex-column">
+                    <span>Marketing</span>
+                  </div>
+                </div>
+                <div class="tag-section">NSE:Tag Section</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center flex-column align-items-center pt-10">
+        <span>What’s Trending</span>
+        <div class="mt-5 gap-4">
+          <img
+            src="../../../assets/Group_427319254.png"
+            class="img-fluid"
+            alt="Responsive image"
+            width="100"
+          />
+            <img
+            src="../../../assets/Group_427319256.png"
+            class="img-fluid"
+            alt="Responsive image"
+            width="100"
+          />
+           <img
+            src="../../../assets/Group_427319255.png"
+            class="img-fluid"
+            alt="Responsive image"
+            width="100"
+          />
+            <img
+            src="../../../assets/download 1.png"
+            class="img-fluid"
+            alt="Responsive image"
+            width="100"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

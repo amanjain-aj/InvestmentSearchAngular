@@ -1,0 +1,37 @@
+.main-conatiner {
+  height: 100vh;
+  margin: 0 !important;
+}
+
+.background-image {
+  background-image: url(../../../assets/login_bg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content-sec-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 10%;
+}
+
+.container {
+  padding: 8% 8% 8% 8%;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 50px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.content-section {
+  margin-top: 10%;
+}
