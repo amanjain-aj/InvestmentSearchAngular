@@ -13,6 +13,7 @@
 
 .text-custom{
     color: #b9dd4e;
+    font-weight: 500;
 }
 
 .btn-custom{
@@ -24,4 +25,35 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 19.36px;
+}
+.back-text{
+  margin-left: 7px;
+}
+.chevron-left-icon {
+  color: #888888;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+}
+
+.container span:nth-child(1) {
+  font-size: 16px;
+  width: max-content;
+  font-weight: 600;
+}
+
+.container span:nth-child(2) {
+  font-size: 11px;
+  width: max-content;
+
+}
+.caret-up-icon{
+  font-size: 23px;
+}
+.inline-flex-container {
+  display: inline-flex;
+  align-items: center;
 }

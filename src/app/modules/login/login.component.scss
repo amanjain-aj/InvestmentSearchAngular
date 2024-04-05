@@ -21,17 +21,51 @@
   padding: 8% 8% 8% 8%;
 }
 
+.login-icon{
+padding-bottom: 4%;
+}
+
 .login-btn {
   display: flex;
   justify-content: center;
   width: 100%;
   border-radius: 50px;
-  height: 52px;
+  height: 45px;
   display: flex;
   align-items: center;
   font-size: 18px;
+  margin-top: 10%;
 }
 
 .content-section {
   margin-top: 10%;
+  margin-bottom: 5%;
+
+  h2{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 32px;
+    padding-bottom: 2%;
+  }
+
+  span{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F5B67;
+  }
+}
+
+.login-content{
+  font-family: Manrope;
+  font-weight: 800;
+  font-size: 48px;
+  width: 60%;
+}
+
+.login-sub-content{
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 32px;
+  color: #4F5B67;
 }

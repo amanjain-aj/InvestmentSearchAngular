@@ -15,21 +15,14 @@
 }
 
 
-
-
 body {
-
   background-color: #eee;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-
-
 }
 
 .btn {
-
   border-radius: 25px;
-
 }
 
 .new {
@@ -42,7 +35,6 @@ body {
   border: none;
   background: none;
   box-shadow: none;
-
 }
 
 
@@ -221,4 +213,31 @@ body {
 }
 .search-ttem{
   cursor: pointer;
+}
+
+.heading-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7%;
+
+  h1{
+    font-family: Rozha One;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #2F2F2F;
+  }
+
+  span{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 32px;
+    color: #2F2F2F;
+  }
+}
+
+.img-sec{
+  img{
+    padding-right: 5%;
+  }
 }

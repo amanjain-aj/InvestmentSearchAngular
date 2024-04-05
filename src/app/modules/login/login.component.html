@@ -1,18 +1,15 @@
 <div class="row main-conatiner">
   <div class="col-7 background-image">
-    <div
-      class="content-sec-right"
-    >
+    <div class="content-sec-right">
       <img
         src="../../../assets/icon.png"
-        class="img-fluid"
+        class="img-fluid login-icon"
         alt="Responsive image"
-        width="100"
+        width="50px"
       />
-      <p>Experience Seamless Stock Search Here</p>
-      <p>
-        <span>Kanini Ticker Platform</span>
-      </p>
+      <p class="login-content">Experience Seamless Stock Search Here</p>
+
+      <span class="login-sub-content">Kanini Ticker Platform</span>
     </div>
   </div>
   <div class="col-5 container">
@@ -29,9 +26,9 @@
 
     <div>
       <form [formGroup]="loginForm" (ngSubmit)="login()">
-        <div class="mb-3">
+        <div class="mb-4">
           <label for="exampleInputEmail1" class="form-label"
-            >Email address</label
+            >Email Id</label
           >
           <input
             type="email"
@@ -51,7 +48,7 @@
           />
         </div>
 
-        <button type="submit" class="btn btn-primary login-btn">Submit</button>
+        <button type="submit" class="btn btn-primary login-btn mt-10">Submit</button>
       </form>
     </div>
   </div>
